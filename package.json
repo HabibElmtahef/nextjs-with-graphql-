@@ -8,8 +8,25 @@
     "start": "next start"
   },
   "dependencies": {
+    "@apollo/client": "^3.4.16",
+    "@chakra-ui/icons": "^1.0.16",
+    "@chakra-ui/react": "^1.6.10",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "apollo-server-micro": "^3.4.0",
+    "bcryptjs": "^2.4.3",
+    "crypto-js": "^4.1.1",
+    "formik": "^2.2.9",
+    "framer-motion": "^4.1.17",
+    "graphql": "^15.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "micro": "^9.3.4",
+    "mongoose": "^6.0.11",
     "next": "11.1.2",
+    "nprogress": "^0.2.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "yup": "^0.32.11"
   }
 }

@@ -5,7 +5,7 @@ const connectionDB = () => {
         console.log('Already Connect');
         return
     }
-    mongoose.connect("mongodb+srv://next:next@cluster0.w7fib.mongodb.net/mongogql?retryWrites=true&w=majority", {}, err => {
+    mongoose.connect(process.env.URI, {}, err => {
         if (err) throw err
         console.log('Database Connected');
     })

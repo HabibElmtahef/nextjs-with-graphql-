@@ -7,7 +7,7 @@ import Layout from '../Components/Layout'
 import {DataProvider} from '../context/GlobalState'
 
 const httpLink = createHttpLink({
-  uri: "http://localhost:3000/api/graphql",
+  uri: "https://nextjs-with-graphql.vercel.app/api/graphql",
 })
 
 const authLink = setContext((_, { headers }) => {
